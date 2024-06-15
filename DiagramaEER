@@ -1,8 +1,0 @@
-La normalización es un proceso fundamental en el diseño de bases de datos relacionales que se centra en organizar datos de manera eficiente para minimizar la redundancia y mantener la integridad de los datos. Algunos conceptos clave incluyen:
-
-**Redundancia de Datos**: Ocurre cuando la misma información se almacena en múltiples lugares. Los datos redundantes desperdician espacio en disco y crean problemas de mantenimiento. Si hay que modificar datos que existen en más de un lugar, los datos deben modificarse exactamente de la misma manera en todos los lugares. Un cambio en la dirección de un cliente es más fácil de implementar si esos datos se almacenan sólo en la tabla Clientes y en ningún otro lugar de la base de datos.
-**Integridad de los Datos**: Se refiere a la precisión y consistencia de los datos en la base de datos.
-Dependencias Funcionales: Son las relaciones entre los atributos de una tabla que describen cómo determinados atributos dependen de otros.
-
-
-Como podemos ver tenemos la data cruda de la base de datos incidentes de nuestro proyecto, la cual tenemos sin ninguna normalizacion. 
